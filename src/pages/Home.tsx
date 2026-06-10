@@ -296,13 +296,15 @@ export default function Home() {
                                     <p className="text-lg md:text-xl mb-8 text-gray-600 dark:text-gray-300">全国性车务供应链一体化对接服务，涵盖车辆上牌、过户、年检等多项服务，为您提供专业、高效、便捷的车务解决方案。
                                                                                                                                                                                                                                                                                                                                                                                           </p>
                                     <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                                        <button
+                                        <a
+                                            href="#process"
                                             className="px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white font-medium rounded-full transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center">立即预约服务
                                                                                                                                                                                                                                                                                                                                                                                                                                   <ArrowRight className="ml-2 h-5 w-5" />
-                                        </button>
-                                        <button
+                                        </a>
+                                        <a
+                                            href="#services"
                                             className="px-8 py-3 bg-transparent border-2 border-orange-500 text-orange-500 hover:bg-orange-500/10 font-medium rounded-full transition-colors duration-300">了解更多
-                                                                                                                                                                                                                                                                                                                                                                                                                                </button>
+                                                                                                                                                                                                                                                                                                                                                                                                                                </a>
                                     </div>
                                 </motion.div>
                             </div>

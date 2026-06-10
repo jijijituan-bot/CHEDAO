@@ -1,0 +1,20 @@
+﻿{
+  "$schema": "https://github.com/cloudflare/workers-sdk/raw/main/packages/wrangler/config-schema.json",
+  "name": "chedao-shanqian",
+  "type": "javascript",
+  "compatibility_date": "2026-06-10",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "dist",
+    "not_found_handling": "single-page-application"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "build": {
+    "command": "pnpm run build",
+    "cwd": "./"
+  }
+}

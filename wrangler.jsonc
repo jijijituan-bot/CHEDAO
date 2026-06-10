@@ -1,6 +1,6 @@
 ﻿{
   "$schema": "https://github.com/cloudflare/workers-sdk/raw/main/packages/wrangler/config-schema.json",
-  "name": "chedao-shanqian",
+  "name": "chedaoshanqian",
   "type": "javascript",
   "compatibility_date": "2026-06-10",
   "observability": {

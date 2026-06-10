@@ -324,7 +324,7 @@ export default function Home() {
                                     <div
                                         className="absolute inset-0 bg-orange-400 rounded-3xl blur-3xl opacity-20 animate-pulse"></div>
                                     <img
-                                        src="https://space.coze.cn/api/coze_space/gen_image?image_size=landscape_16_9&prompt=Modern%20car%20service%20platform%2C%20professional%20team%2C%20efficient%20service%2C%20digital%20interface&sign=7b315d20120d7bf5ea9760108db84fca"
+                                        src="https://i.ibb.co/bgxBYjcy/85f06f253a41.png"
                                         alt="智能车辆服务平台"
                                         className="relative z-10 w-full h-auto rounded-3xl shadow-2xl transform transition-transform hover:scale-[1.02]" />
                                 </motion.div>
